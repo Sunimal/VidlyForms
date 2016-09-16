@@ -16,5 +16,11 @@ namespace VidlyForms
         {
             InitializeComponent();
         }
+
+        private void btnCustomers_Click(object sender, EventArgs e)
+        {
+            Customers customerForm = new VidlyForms.Customers();
+            customerForm.Show();
+        }
     }
 }
